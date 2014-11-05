@@ -1,0 +1,1253 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2011/2/DataMining.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/ontologies/2011/2/DataMining.owl">
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AR_Mining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agglomerative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apriori"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Association_Rule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Association_Rules"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attribute_Selection_Measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Average"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BBN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BIRCH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bayesian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Binary_Variables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C4.5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CART"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CURE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Categorical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centroid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clarans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cluster_Distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clustering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Co-relation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Complete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confusion_Matrix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crawlers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DATA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DB_Scan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DMQuery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DT_Algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distance_Based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Divisive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Episode_Sequential_Patterns"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eucledian_Distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FPtree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Focused"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forward_Sequences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frequent_Itemset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gain_Ratio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gini_Index"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harvest_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hierarchial_Methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ID3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IR_Technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information_Gain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interval_Scaled_Variables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#K-Nearest_Neighbour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#K-means"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#K-medoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KDD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Large_DB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linear_Regression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manhattan_Distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maximal_Frequent_Sequences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measure_Of_Accuracy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measure_of_Interestingness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measuring_Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mediods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method_Of_Least_Square"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Naive_Bayesian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ordinal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outlier_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outliers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Partitioning_Methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pattern-Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pattern_Discovery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Posterior_Probability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pre-Processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primitive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prior_Probability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Query_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ratio_Scaled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regression_Coefficients"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rules"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Similarity_Measures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Single"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statistical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suffix_Tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Support"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Virtual_Web_View"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_Content_Mining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_Log"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_Mining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_Structure_Mining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_Usage_Mining"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AR_Mining"/>
+        <Class abbreviatedIRI=":Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agglomerative"/>
+        <Class IRI="#Hierarchial_Methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apriori"/>
+        <Class IRI="#AR_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Architecture"/>
+        <Class abbreviatedIRI=":Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Association_Rule"/>
+        <Class IRI="#Pattern_Discovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Association_Rules"/>
+        <Class IRI="#Frequent_Itemset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attribute_Selection_Measure"/>
+        <Class IRI="#DT_Algorithm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Average"/>
+        <Class IRI="#Agglomerative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BBN"/>
+        <Class IRI="#Bayesian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BIRCH"/>
+        <Class IRI="#Large_DB"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bayesian"/>
+        <Class IRI="#Statistical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Binary_Variables"/>
+        <Class IRI="#DATA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C4.5"/>
+        <Class IRI="#DT_Algorithm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CART"/>
+        <Class IRI="#DT_Algorithm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CURE"/>
+        <Class IRI="#Large_DB"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Categorical"/>
+        <Class IRI="#DATA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centroid"/>
+        <Class IRI="#K-means"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clarans"/>
+        <Class IRI="#Partitioning_Methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification"/>
+        <Class abbreviatedIRI=":Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cluster_Distance"/>
+        <Class IRI="#Clustering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clustering"/>
+        <Class abbreviatedIRI=":Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Co-relation"/>
+        <Class IRI="#Frequent_Itemset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Complete"/>
+        <Class IRI="#Agglomerative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confidence"/>
+        <Class IRI="#Measure_of_Interestingness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confusion_Matrix"/>
+        <Class IRI="#Measuring_Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crawlers"/>
+        <Class IRI="#Web_Content_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DATA"/>
+        <Class abbreviatedIRI=":Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DB_Scan"/>
+        <Class IRI="#Large_DB"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DMQuery"/>
+        <Class abbreviatedIRI=":Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DT_Algorithm"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Structure"/>
+        <Class IRI="#Pattern_Discovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distance_Based"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Divisive"/>
+        <Class IRI="#Hierarchial_Methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Episode_Sequential_Patterns"/>
+        <Class IRI="#Pattern_Discovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eucledian_Distance"/>
+        <Class IRI="#K-Nearest_Neighbour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FPtree"/>
+        <Class IRI="#AR_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Crawlers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forward_Sequences"/>
+        <Class IRI="#Pattern_Discovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frequent_Itemset"/>
+        <Class IRI="#AR_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gain_Ratio"/>
+        <Class IRI="#Attribute_Selection_Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gini_Index"/>
+        <Class IRI="#Attribute_Selection_Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harvest_Systems"/>
+        <Class IRI="#Web_Content_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hierarchial_Methods"/>
+        <Class IRI="#Clustering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ID3"/>
+        <Class IRI="#DT_Algorithm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IR_Technique"/>
+        <Class IRI="#Distance_Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information_Gain"/>
+        <Class IRI="#Attribute_Selection_Measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interval_Scaled_Variables"/>
+        <Class IRI="#DATA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#K-Nearest_Neighbour"/>
+        <Class IRI="#Distance_Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#K-means"/>
+        <Class IRI="#Partitioning_Methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#K-medoids"/>
+        <Class IRI="#Partitioning_Methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KDD"/>
+        <Class abbreviatedIRI=":Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Large_DB"/>
+        <Class IRI="#Clustering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Linear_Regression"/>
+        <Class IRI="#Regression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manhattan_Distance"/>
+        <Class IRI="#K-Nearest_Neighbour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maximal_Frequent_Sequences"/>
+        <Class IRI="#Pattern_Discovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure_Of_Accuracy"/>
+        <Class IRI="#Linear_Regression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure_of_Interestingness"/>
+        <Class IRI="#Association_Rules"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measuring_Performance"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mediods"/>
+        <Class IRI="#K-medoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method_Of_Least_Square"/>
+        <Class IRI="#Regression_Coefficients"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Data"/>
+        <Class IRI="#DATA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Naive_Bayesian"/>
+        <Class IRI="#Bayesian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ordinal"/>
+        <Class IRI="#DATA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outlier_Analysis"/>
+        <Class IRI="#Clustering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outliers"/>
+        <Class IRI="#DATA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Partitioning_Methods"/>
+        <Class IRI="#Clustering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pattern-Analysis"/>
+        <Class IRI="#Web_Usage_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pattern_Discovery"/>
+        <Class IRI="#Web_Usage_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personalization"/>
+        <Class IRI="#Web_Content_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Posterior_Probability"/>
+        <Class IRI="#Naive_Bayesian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pre-Processing"/>
+        <Class IRI="#Web_Usage_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primitive"/>
+        <Class IRI="#DMQuery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prior_Probability"/>
+        <Class IRI="#Naive_Bayesian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Query_Language"/>
+        <Class IRI="#DMQuery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ratio_Scaled"/>
+        <Class IRI="#DATA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regression"/>
+        <Class IRI="#Statistical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regression_Coefficients"/>
+        <Class IRI="#Linear_Regression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular"/>
+        <Class IRI="#Crawlers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rules"/>
+        <Class IRI="#DT_Algorithm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Similarity_Measures"/>
+        <Class IRI="#IR_Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Single"/>
+        <Class IRI="#Agglomerative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statistical"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suffix_Tree"/>
+        <Class IRI="#Data_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Support"/>
+        <Class IRI="#Measure_of_Interestingness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tree"/>
+        <Class IRI="#Data_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Virtual_Web_View"/>
+        <Class IRI="#Web_Content_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_Content_Mining"/>
+        <Class IRI="#Web_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_Log"/>
+        <Class IRI="#Web_Usage_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_Mining"/>
+        <Class abbreviatedIRI=":Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_Structure_Mining"/>
+        <Class IRI="#Web_Mining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_Usage_Mining"/>
+        <Class IRI="#Web_Mining"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AR_Mining"/>
+        <Class IRI="#Architecture"/>
+        <Class IRI="#Classification"/>
+        <Class IRI="#Clustering"/>
+        <Class IRI="#DATA"/>
+        <Class IRI="#DMQuery"/>
+        <Class IRI="#KDD"/>
+        <Class IRI="#Web_Mining"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agglomerative"/>
+        <Class IRI="#Divisive"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Apriori"/>
+        <Class IRI="#FPtree"/>
+        <Class IRI="#Frequent_Itemset"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Association_Rule"/>
+        <Class IRI="#Data_Structure"/>
+        <Class IRI="#Episode_Sequential_Patterns"/>
+        <Class IRI="#Forward_Sequences"/>
+        <Class IRI="#Maximal_Frequent_Sequences"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Association_Rules"/>
+        <Class IRI="#Co-relation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attribute_Selection_Measure"/>
+        <Class IRI="#C4.5"/>
+        <Class IRI="#CART"/>
+        <Class IRI="#ID3"/>
+        <Class IRI="#Rules"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Average"/>
+        <Class IRI="#Complete"/>
+        <Class IRI="#Single"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BBN"/>
+        <Class IRI="#Naive_Bayesian"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BIRCH"/>
+        <Class IRI="#CURE"/>
+        <Class IRI="#DB_Scan"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bayesian"/>
+        <Class IRI="#Regression"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Clarans"/>
+        <Class IRI="#K-means"/>
+        <Class IRI="#K-medoids"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cluster_Distance"/>
+        <Class IRI="#Hierarchial_Methods"/>
+        <Class IRI="#Large_DB"/>
+        <Class IRI="#Outlier_Analysis"/>
+        <Class IRI="#Partitioning_Methods"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Confidence"/>
+        <Class IRI="#Support"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Crawlers"/>
+        <Class IRI="#Harvest_Systems"/>
+        <Class IRI="#Personalization"/>
+        <Class IRI="#Virtual_Web_View"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DT_Algorithm"/>
+        <Class IRI="#Distance_Based"/>
+        <Class IRI="#Measuring_Performance"/>
+        <Class IRI="#Statistical"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Eucledian_Distance"/>
+        <Class IRI="#Manhattan_Distance"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Focused"/>
+        <Class IRI="#Regular"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Gain_Ratio"/>
+        <Class IRI="#Gini_Index"/>
+        <Class IRI="#Information_Gain"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IR_Technique"/>
+        <Class IRI="#K-Nearest_Neighbour"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Measure_Of_Accuracy"/>
+        <Class IRI="#Regression_Coefficients"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Pattern-Analysis"/>
+        <Class IRI="#Pattern_Discovery"/>
+        <Class IRI="#Pre-Processing"/>
+        <Class IRI="#Web_Log"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Posterior_Probability"/>
+        <Class IRI="#Prior_Probability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Primitive"/>
+        <Class IRI="#Query_Language"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Suffix_Tree"/>
+        <Class IRI="#Tree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Web_Content_Mining"/>
+        <Class IRI="#Web_Structure_Mining"/>
+        <Class IRI="#Web_Usage_Mining"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AR_Mining</IRI>
+        <Literal datatypeIRI="&xsd;string">1.1,20,20,AR Mining,association rule mining</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agglomerative</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.2.1,5,8,Agglomerative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Apriori</IRI>
+        <Literal datatypeIRI="&xsd;string">1.1.1,5,10,Apriori</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Architecture</IRI>
+        <Literal datatypeIRI="&xsd;string">1.2,5,5,Architecture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Association_Rule</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.3.2.1,2,3,Association Rule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Association_Rules</IRI>
+        <Literal datatypeIRI="&xsd;string">1.1.3.1,3,5,Association Rules,rules of association</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Attribute_Selection_Measure</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.1.1,3,7,information gain,Attribute Selection Measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Average</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.2.1.1,1,2,Average</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BBN</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.4.1.1,1,3,BBN,Bayesian Beleif Network</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BIRCH</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.3.1,1,2,BIRCH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bayesian</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.4.1,6,8,Bayesian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Binary_Variables</IRI>
+        <Literal datatypeIRI="&xsd;string">1.5.1,1,2,Binary Variables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#C4.5</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.1.2,2,4,C4.5,C 4.5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CART</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.1.3,2,4,classification and regression trees , binary partioning , induction , entropy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CURE</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.3.2,0,1,CURE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Categorical</IRI>
+        <Literal datatypeIRI="&xsd;string">1.5.2,1,2,Categorical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Centroid</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.5.2.1,2,3,Centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Clarans</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.5.1,2,3,Clarans</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Classification</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3,20,20,supervised learning,classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cluster_Distance</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.1,3,5,Cluster Distance,complete,average,single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Clustering</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4,20,20,unsupervised learning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Co-relation</IRI>
+        <Literal datatypeIRI="&xsd;string">1.1.3.2,3,5,Co-relation,corelation,correlation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Complete</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.2.1.2,1,2,Complete</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Confidence</IRI>
+        <Literal datatypeIRI="&xsd;string">1.1.3.1.1.1,1,2,Confidence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Confusion_Matrix</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.3.1,1,3,Confusion Matrix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crawlers</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.1.1,2,4,Crawlers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DATA</IRI>
+        <Literal datatypeIRI="&xsd;string">1.5,5,5,Data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DB_Scan</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.3.3,0,1,DB Scan,database scan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DMQuery</IRI>
+        <Literal datatypeIRI="&xsd;string">1.6,10,10,DM Query,data mining query</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DT_Algorithm</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.1,7,12,decision tree algorithm,decision tree,DT algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Data_Structure</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.3.2.2,2,3,Data Structures,datastructures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Distance_Based</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.2,5,9,Distance Based</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Divisive</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.2.2,5,8,Divisive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Episode_Sequential_Patterns</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.3.2.3,2,3,Episode Sequential Patterns</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eucledian_Distance</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.2.2.1,2,3,Euclidean Distance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FPtree</IRI>
+        <Literal datatypeIRI="&xsd;string">1.1.2,5,8,FP tree,frequent pattern tree,frequent pattern</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Focused</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.1.1.1,2,3,Focussed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Forward_Sequences</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.3.2.4,2,3,Forward Sequences</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Frequent_Itemset</IRI>
+        <Literal datatypeIRI="&xsd;string">1.1.3,5,8,Frequent Itemset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gain_Ratio</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.1.1.1,2,4,Gain Ratio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gini_Index</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.1.1.2,2,3,Gini Index</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Harvest_Systems</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.1.2,2,4,Harvest Systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hierarchial_Methods</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.2,6,12,Hierarchical Methods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ID3</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.1.4,2,4,iterative dichotomiser , induction , entropy , partioning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IR_Technique</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.2.1,2,5,IR Technique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Information_Gain</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.1.1.3,3,5,Information Gain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Interval_Scaled_Variables</IRI>
+        <Literal datatypeIRI="&xsd;string">1.5.3,1,2,Interval Scaled Variables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#K-Nearest_Neighbour</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.2.2,3,6,K-nearest neighbours,k nearest neighbours</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#K-means</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.5.2,6,10,k-means,k means</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#K-medoids</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.5.3,3,6,k-medoids,k medoids</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KDD</IRI>
+        <Literal datatypeIRI="&xsd;string">1.7,5,5,KDD,Knowledge Discovery in Databases,discovery of knowledge in databases</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Large_DB</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.3,2,4,Large DB,large database</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Linear_Regression</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.4.2.1,3,5,Linear Regression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Manhattan_Distance</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.2.2.2,2,3,Manhattan Distance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Maximal_Frequent_Sequences</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.3.2.5,2,3,Maximal Frequent Sequences</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Measure_Of_Accuracy</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.4.2.1.1,2,3,Measure of accuracy,accuracy measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Measure_of_Interestingness</IRI>
+        <Literal datatypeIRI="&xsd;string">1.1.3.1.1,2,4,Measure of interestingness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Measuring_Performance</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.3,3,5,Measuring Performance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mediods</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.5.3.1,2,3,Medoids</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Method_Of_Least_Square</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.4.2.1.2.1,1,2,Method of Least Square</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Missing_Data</IRI>
+        <Literal datatypeIRI="&xsd;string">1.5.4,0,2,Missing Data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Naive_Bayesian</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.4.1.2,6,8,Naive Bayesian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ordinal</IRI>
+        <Literal datatypeIRI="&xsd;string">1.5.5,0,2,Ordinal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Outlier_Analysis</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.4,3,5,Outlier Analysis,analysis of outliers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Outliers</IRI>
+        <Literal datatypeIRI="&xsd;string">1.5.6,2,3,Outliers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Partitioning_Methods</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.5,6,12,,Partioning Methods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pattern-Analysis</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.3.1,1,3,Pattern Analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pattern_Discovery</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.3.2,3,6,Pattern Discovery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Personalization</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.1.3,1,3,Personalization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Posterior_Probability</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.4.1.2.1,2,4,Posterior Probability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pre-Processing</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.3.3,1,3,Pre-processing,preprocessing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Primitive</IRI>
+        <Literal datatypeIRI="&xsd;string">1.6.1,5,8,Primitive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prior_Probability</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.4.1.2.2,2,4,Prior Probability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Query_Language</IRI>
+        <Literal datatypeIRI="&xsd;string">1.6.2,5,8,Query Language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ratio_Scaled</IRI>
+        <Literal datatypeIRI="&xsd;string">1.5.7,1,2,Ratio Scaled Variables,Ratio Scaled</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Regression</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.4.2,3,5,Regression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Regression_Coefficients</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.4.2.1.2,2,3,Regression Co-efficients,co-efficients of regression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Regular</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.1.1.2,2,3,Regular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rules</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.1.5,0,1,Rules</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Similarity_Measures</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.2.1.1,2,4,Similarity measures,measures of similarity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Single</IRI>
+        <Literal datatypeIRI="&xsd;string">1.4.2.1.3,1,2,Single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Statistical</IRI>
+        <Literal datatypeIRI="&xsd;string">1.3.4,5,10,Statistical,statistical-based approach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Suffix_Tree</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.3.2.2.1,1,2,Suffix Tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Support</IRI>
+        <Literal datatypeIRI="&xsd;string">1.1.3.1.1.2,1,2,Support</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tree</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.3.2.2.2,1,2,Tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Virtual_Web_View</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.1.4,2,4,Virtual Web View</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Web_Content_Mining</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.1,5,8,Web Content Mining</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Web_Log</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.3.4,3,5,Web Log</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Web_Mining</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8,15,15,Web Mining</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Web_Structure_Mining</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.2,5,8,Web Structure Mining,PageRank ,Clever,HITS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Web_Usage_Mining</IRI>
+        <Literal datatypeIRI="&xsd;string">1.8.3,5,8,Web Usage Mining</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>:Thing</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">1,100,100,Data Mining</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.0.0.1413) http://owlapi.sourceforge.net -->
+

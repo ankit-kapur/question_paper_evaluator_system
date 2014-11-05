@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog id="file:/E:/BE%20PROJECT/BE_Implementation/" prefer="public" xml:base="file:/E:/BE%20PROJECT/BE_Implementation/" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri name="http://www.semanticweb.org/ontologies/2011/2/DataMining.owl" uri="DataMining.owl"/>
+</catalog>

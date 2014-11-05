@@ -1,0 +1,67 @@
+<html>
+<title>Question form</title>
+<head>
+<script type="text/javascript" src="JavascriptFile.js"></script>
+</head>
+
+<body>
+
+	<table STYLE="position: absolute; TOP: 50px; LEFT: 50px;" align="left"
+		cellspacing="2" cellpadding="4">
+
+		<tr>
+			<td colspan="2" align="left"><font size="5" face="impact"
+				color=""> Enter first question </font></td>
+		</tr>
+		<tr>
+			<td><font size="3" face="impact" color=""> Question 1: </font></td>
+			<td><font size="3" face="impact" color=""> <input
+					type="text" id="question1" size="30" />
+			</font></td>
+		</tr>
+		<tr>
+			<td><font size="3" face="impact" color=""> Marks 1: </font></td>
+			<td><font size="2" face="impact" color=""> <input
+					type="text" id="marks1" size="3">
+			</font></td>
+		</tr>
+		<!--
+   <td colspan="2" align="center">
+            <input type="button" value="Add question" name="searchButton" value="" onclick="searchConcepts(question1.value, marks1.value)"/></td></tr> -->
+
+
+	</table>
+
+	<table STYLE="position: absolute; TOP: 450px; LEFT: 50px;"
+		align="right" cellspacing="2" cellpadding="4">
+		<tr>
+			<td colspan="2" align="right"><font size="5" face="impact"
+				color=""> Enter second Question </font></td>
+		</tr>
+		<tr>
+			<td><font size="3" face="impact" color=""> Question 2: </font></td>
+			<td><font size="3" face="impact" color=""> <input
+					type="text" id="question2" size="30" />
+			</font></td>
+		</tr>
+		<tr>
+			<td><font size="3" face="impact" color=""> Marks 2: </font></td>
+			<td><font size="2" face="impact" color=""> <input
+					type="text" id="marks2" size="3">
+			</font></td>
+		</tr>
+
+		<tr>
+			<td colspan="2" align="center"><input type="button"
+				value="Evaluate similarity" name="searchButton"
+				onclick="searchConcepts(question1.value,marks1.value,question2.value, marks2.value)" /></td>
+		</tr>
+
+	</table>
+
+
+	<p id="JspFromHere"> </p>
+
+		<!table  background="pics/back4light.jpg" STYLE="position:absolute; TOP:400px; LEFT:450px;"  align=center cellspacing=4 cellpadding=4>
+</body>
+</html>
